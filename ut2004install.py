@@ -320,7 +320,6 @@ class manifest_file ():
 	def _verify_md5 (self, base):
 		if self._md5 is None: return True
 		target = os.path.join (base, self._name)
-		md5 = hashlib.md5 ()
 		f = open (target)
 		try: target_md5 = md5_file (f)
 		finally: f.close ()
@@ -329,7 +328,7 @@ class manifest_file ():
 	def _verify (self, base):
 		return (self._verify_exists (base)
 			and self._verify_size (base)
-		)#	and self._verify_md5 (base))
+			and self._verify_md5 (base))
 
 	def verify (self, base):
 		if not self._verify_exists (base):
