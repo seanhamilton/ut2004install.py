@@ -3231,7 +3231,7 @@ ut2004 = manifest (
 	items=(
 		manifest_directory (''),
 		ut2004_3186,
-		ut2004_3186_audio_det,
+		ut2004_3186_audio_int,
 		ut2004_3186_int,
 		ut2004_3369_2,
 		ut2004_3369_2_int,
