@@ -11,6 +11,10 @@ Currently the only supported installation media are the retail PC
 version CDs or DVD. Editor's Choice Edition should work but is
 untested. Notably the Mac version DVD is not currently supported.
 
+**If you own any other installation media, especially the official
+Mac install DVD, and are willing to send a disc image or physical
+media, please email <seanhamilton@gmail.com>**
+
 UT2004 3369.2 Mac OS X patch
 ============================
 
@@ -35,7 +39,7 @@ in your Applications folder. If you already had one, its contents will
 be verified, and it will be patched and repaired as necessary.
 
 If this is a new installation, you will have to set your CD key with
-the following commands:
+the following command:
 
     $ echo YOUR-CD-KEY > /Applications/U*T*2004.app/System/cdkey
 
